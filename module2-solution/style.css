@@ -1,17 +1,36 @@
-
-
 h1 {
     text-align: center;
 }
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
 
 @media (min-width: 992px) {
+    .col-lg-4{
+        width:33.33%;
+    }
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+        width:50%;
+    }
+    .col-md-12{
+        width:100%;
+    }
 
 }
 
 @media (max-width: 767px) {
+    .col-s-12{
+        width:100%;
+    }
+
 
 }
