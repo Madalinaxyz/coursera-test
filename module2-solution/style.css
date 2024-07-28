@@ -1,13 +1,14 @@
 h1 {
     text-align: center;
 }
-* {
-    box-sizing: border-box;
-}
 .container {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 @media (min-width: 992px) {
