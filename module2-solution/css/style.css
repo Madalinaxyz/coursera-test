@@ -24,16 +24,37 @@ h1 {
     margin: 10px;
 }
 
-.menu-label {
+.menu-label-1 {
     position: absolute;
     top:-1px;
     right:-1px;
-    background-color: #ff69b4; /* Pink background color */
+    background-color: #ff69b4; 
     color: white;
     padding: 5px;
     border: 1px solid black;
     font-size: 1.25em;
 }
+.menu-label-2 {
+    position: absolute;
+    top:-1px;
+    right:-1px;
+    background-color: purple; 
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+.menu-label-3 {
+    position: absolute;
+    top:-1px;
+    right:-1px;
+    background-color: blue; 
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+
 
 @media (min-width: 992px) {
     .col-lg-4 {
